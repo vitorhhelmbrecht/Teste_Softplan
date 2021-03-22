@@ -61,7 +61,7 @@ namespace TesteCalculoJuros
         [Test]
         public void DeveriaRetornarCaminhoCodigo()
         {
-            var valorEsperado = "https://github.com/vitorhhelmbrecht/APICalculoJuros";
+            var valorEsperado = "https://github.com/vitorhhelmbrecht/Teste_Softplan";
 
             var retorno = _caminhoCodigo.ShowThecode();
             retorno.Should().BeOfType<JsonResult>().
