@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  api_calculo_juros:
+    build: "./APICalculoJuros/APICalculoJuros"
+    container_name: api_calculo_juros_container
+    ports:
+      - 8080:80
+  api_taxa_juros:
+    build: "./APITaxaJuros/APITaxaJuros"
+    container_name: api_taxa_juros_container
+    ports:
+      - 5000:80

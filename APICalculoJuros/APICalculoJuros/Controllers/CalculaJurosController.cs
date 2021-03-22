@@ -2,7 +2,6 @@
 using System;
 using System.Net;
 using APICalculoJuros.Interfaces;
-using Newtonsoft.Json;
 
 namespace APICalculoJuros.Controllers
 {
